@@ -65,12 +65,6 @@
    node server.js
    ```
 
-5. **API Base URL**
-
-   ```
-   http://localhost:5000/api
-   ```
-
 ---
 
 ## 📡 API Endpoints
@@ -85,19 +79,12 @@
 | GET    | `/api/preferences`       | Retrieve user preferences                | Yes           |
 | GET    | `/api/dashboard-summary` | Get sample dashboard summary data        | Yes           |
 
-### Example Request
 
-```bash
-curl -X POST http://localhost:5000/api/register \
-  -H "Content-Type: application/json" \
-  -d '{
-        "name": "Jane Doe",
-        "email": "jane@example.com",
-        "password": "SecureP@ss123"
-      }'
-```
+### Demo
+💻 [Watch a 1–2 min walkthrough on Loom](https://www.loom.com/share/6712cbadab8f4e8c992aaf6f47852407?sid=e80d1d05-31e3-47a3-b3b1-6cb30528d1d3)
 
-## 🔧 Environment Variables
+
+## My Environment Variables
 
 | Variable     | Description                   | Example                               |
 | ------------ | ----------------------------- | ------------------------------------- |
@@ -113,5 +100,4 @@ curl -X POST http://localhost:5000/api/register \
 | -------------- | ------------------------------------------------------- | --------------------------------------------- |
 | Harshith Madda | [harshithm046@gmail.com](mailto:harshithm046@gmail.com) | [harshith046](https://github.com/harshith046) |
 
-Feel free to open issues or submit pull requests for improvements!
 
